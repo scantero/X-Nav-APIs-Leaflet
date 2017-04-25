@@ -1,4 +1,3 @@
-// JavaScript for simple.html (Leaflet)
 
 $(document).ready(function() {
     // create a map in the "map" div, set the view to a given place and zoom
@@ -13,7 +12,6 @@ $(document).ready(function() {
     	.bindPopup('Inicio')
     	.openPopup();
 
-    //geolocation
     map.locate({setView: true});
 
 
